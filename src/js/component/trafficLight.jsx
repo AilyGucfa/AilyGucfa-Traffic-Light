@@ -10,17 +10,17 @@ const TrafficLight = () =>{
             <div className="traffic-light-body">
                 <div 
                     className={chosenColor === "red"? "red-light selected" : "red-light"} 
-                    onClick={() => setChosenColor ("red")}
+                    onMouseOver={() => setChosenColor ("red")}
                 ></div>
                 
                 <div 
                     className={chosenColor === "yellow"? "yellow-light selected" : "yellow-light"}
-                    onClick={() => setChosenColor("yellow")}
+                    onMouseOver={() => setChosenColor("yellow")}
                 ></div>
 
                 <div 
                     className={chosenColor === "green"? "green-light selected" : "green-light"}
-                    onClick={() => setChosenColor ("green")}
+                    onMouseOver={() => setChosenColor ("green")}
                 
                 
                 ></div>

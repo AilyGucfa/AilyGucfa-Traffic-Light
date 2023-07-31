@@ -1,8 +1,12 @@
+body{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+}
 .traffic-Light-stem{
     background-color: black;
     width: 20px;
     height: 80px;
     margin: auto;
+    margin-top:50px
 }
 
 .traffic-light-body{
@@ -18,12 +22,14 @@
     width: 80px;
     height: 80px;
     border-radius: 100%;
+    margin-bottom: 3px;
 }
 .yellow-light{
     background-color: yellow;
     width: 80px;
     height: 80px;
     border-radius: 100%;
+    margin-bottom: 3px;
 }
 .green-light{
     background-color: green;
@@ -34,4 +40,14 @@
 .selected{
     box-shadow: 0px 0px 40px 15px #fff;
 
+}
+.button{
+    margin: auto;
+    text-align: center;
+    width: 230px;
+}
+.btn{
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 1px;
 }

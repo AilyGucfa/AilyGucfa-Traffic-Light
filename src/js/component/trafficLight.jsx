@@ -61,7 +61,7 @@ const TrafficLight = () =>{
             </div>
            
             <div className="button">
-                <button className="btn btn-info mt-3" onClick={toggleButton}>Click To Toggle</button>
+                <button className="btn btn-info mt-3" onClick={() => toggleButton()}>Click To Toggle</button>
             </div>
 
         </>
